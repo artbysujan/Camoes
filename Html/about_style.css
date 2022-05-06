@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.background{
+height:100vh;
+	width: auto;
+background-image:url("../Background/source.gif");
+background-repeat: no-repeat;
+background-size:cover;
+filter: blur(0.1px);
+}
+.bar{
+height: 66px;
+width: 99.5%;
+position:fixed;
+top: 0%;
+left: 0.3%;
+background-color: rgba(11,0,0,0.9);
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+border-bottom:solid;
+border-bottom-color: green;
+border-bottom-width: 7px;
+}
+
+.home_box{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 5%;
+	border-radius: 10px;
+	background-image: url(Home.png);
+	font-family: 'Lobster';
+}
+
+.home_box1{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 25%;
+	border-radius: 10px;
+}
+
+.home_box2{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 45%;
+	border-radius: 10px;
+	font-family: 'Lobster'
+}
+
+.home_box3{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 65%;
+	border-radius: 10px;
+	font-family: 'Lobster'
+}
+.home_box4{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 86%;
+	border-radius: 10px;
+	font-family: 'Lobster';
+	background-color:rgba(21,120,13,0.9);
+}
+.title{
+color: white;
+font-size: 35px;
+text-align:center;
+font-family: Cooper Black;
+}
+
+.subtit{
+color: red;
+font-size: 30px;
+text-align:center;
+font-family: Cooper Black;
+}
+.subtitle{
+color: white;
+font-size: 30px;
+text-align: center;
+font-family: Cooper Black;
+}

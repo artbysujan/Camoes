@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.background{
+height:100vh;
+	width: auto;
+background-image:url("../Background/background.gif");
+background-repeat: no-repeat;
+background-size:cover;
+filter: blur(0.1px);
+}
+.bar{
+height: 66px;
+width: 99.5%;
+position:fixed;
+top: 0%;
+left: 0.3%;
+background-color: rgba(11,0,0,0.9);
+border-bottom-left-radius: 50px;
+border-bottom-right-radius:50px;
+border-bottom:solid;
+border-bottom-color: green;
+border-bottom-width: 7px;
+}
+
+.square{
+height:89;
+width: 90%;
+position: relative;
+top: 13%;
+left: 5%;
+border-radius: 5%;
+box-shadow: 0 25px 50px 0 rgba(0,0,0,0.5);
+background-image: url("../Background/gggg.png");
+border-top: 0.5px solid rgba(255, 255, 255, 0.5);
+border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+text-align: center;
+}
+
+.home_box{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 5%;
+	border-radius: 10px;
+	background-image: url(Home.png);	
+}
+
+.home_box1{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 25%;
+	border-radius: 10px;
+	background-color:rgba(21,120,13,0.9);
+}
+
+.home_box2{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 45%;
+	border-radius: 10px;
+	
+}
+
+.home_box3{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 65%;
+	border-radius: 10px;
+	
+}
+.home_box4{
+height: 26px;
+width: 101px;
+	position:absolute;
+	top: 11.90px;
+	left: 86%;
+	border-radius: 10px;
+}
+.space{
+background-color:rgba(6,1,1,1.00);
+color: aliceblue;
+}
+
+.small_sq{
+	
+	height: 45px;
+	width: 350px;
+	background-color: rgba(0,36,255,1.00);
+	border-radius:15px;
+	font-size: 30px;
+	font-style: bold;
+	color:white;
+    position: absolute;
+	left: 37%;
+}
+
+.grf_bac{
+position: absolute;
+	top:0px;
+	left:109px; 
+	width: 80%;
+}
+.ol{
+	height: 35px;
+	width: 300px;
+	background-color:white;
+	border-radius:15px;
+	font-size: 30px;
+	font-style: bold;
+}
+.logodir{
+height: 30px;
+width: 30px;
+}
+.solsqr{
+background-color: yellow;
+border-radius: 4px;
+}
